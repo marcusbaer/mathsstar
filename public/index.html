@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html manifest="mathstrainer.appcache">
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="description" content="Lerne Rechnen für die 1. und 2. Klasse">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="icons/css/mathsstar.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Demo</title>
+    </head>
+    <body>
+        <div class="app">
+            <!--little math star-->
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+            <div id="slides" class="slides">
+                <div class="slide active">
+                    <div class="feedback">
+                        <div id="zr" class="icon-toggle-off"> 20</div>
+                        <div id="statistics" class="statistics">
+                            <div id="succeeded" class="success icon-thumbs-up">0</div>
+                            <div>+</div>
+                            <div id="mistakes" class="mistake icon-thumbs-down">0</div>
+                            <div>=</div>
+                            <div id="total">0</div>
+                        </div>
+                        <div id="feedback"><!--L&ouml;se die Aufgaben!--></div>
+                    </div>
+                    <div class="task">
+                        <input type="text" id="number-0" /> <input type="text" id="calcmode" value=""> <input type="text" id="number-1"/> = <input type="text" id="number-2"/>
+                    </div>
+                    <div class="keypad">
+                        <div class="key-row">
+                            <div class="key" data-key="7">7</div>
+                            <div class="key" data-key="4">4</div>
+                            <div class="key" data-key="1">1</div>
+                            <div class="key icon-left-hand" data-key="C"></div>
+                        </div>
+                        <div class="key-row">
+                            <div class="key" data-key="8">8</div>
+                            <div class="key" data-key="5">5</div>
+                            <div class="key" data-key="2">2</div>
+                            <div class="key" data-key="0">0</div>
+                        </div>
+                        <div class="key-row">
+                            <div class="key" data-key="9">9</div>
+                            <div class="key" data-key="6">6</div>
+                            <div class="key" data-key="3">3</div>
+                            <div class="key confirm icon-right-hand" data-key="OK"></div>
+                        </div>
+                    </div>
+                    <div id="logo"></div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/ui.js"></script>
+    </body>
+</html>

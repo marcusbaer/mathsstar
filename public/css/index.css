@@ -1,0 +1,247 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 28pt;
+    text-align: center;
+    color: black;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#deviceready {
+    display: none;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #F5BC15;
+    /*background-color: #d3d3d3;*/
+    padding: 1rem;
+}
+
+.slide:nth-child(2) {
+    display: none;
+}
+
+/*.slide.active {}*/
+/*.slide:nth-child(2).active { margin-left: -50%; transition: margin-left 200ms; }*/
+
+input {
+    width: 3.8rem;
+    padding: 0.2rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    text-align: center;
+    color: black;
+}
+
+/*input[type="button"] {*/
+    /*width: auto;*/
+    /*padding: 0;*/
+    /*border: none;*/
+    /*color: black;*/
+/*}*/
+
+/*input[type="text"]:disabled {*/
+    /*border: none;*/
+    /*color: black;*/
+/*}*/
+
+input.enabled {
+    border-bottom: 0.1rem solid white;
+    color: white;
+}
+
+input#calcmode {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.task {
+    background-color: #279C88;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.statistics {
+    overflow: auto;
+    width: 220px;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    margin-right: 0;
+}
+
+.statistics > div {
+    width: 19%;
+    float: left;
+}
+
+/*.statistics {
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.keypad {
+    margin-top: 1rem;
+}
+
+/*.keypad {*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*margin-left: -1rem;*/
+/*}*/
+
+/*.keypad .key-row {*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+/*}*/
+
+.keypad .key-row {
+    overflow: auto;
+    display: inline-block;
+}
+
+.key {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 12px 0px;
+    min-width: 80px;
+    width: 29%;
+}
+
+.feedback {
+    font-size: 1rem;
+}
+
+#zr {
+    width: 56px;
+    left: 0;
+    cursor: pointer;
+}
+
+#total {
+  cursor: pointer;
+}
+
+#feedback {
+    padding: 5px;
+    width: 80px;
+    height: 65px;
+    margin: 0.5rem auto;
+    font-size: 3rem;
+    border-radius: 50%;
+}
+
+#feedback.success, .statistics .success {
+    color: green;
+}
+
+#feedback.mistake {
+    background-color: #D22626;
+    color: #F5BC15;
+    /*color: #d3d3d3;*/
+}
+
+.statistics .mistake {
+    color: #D22626;
+}
+
+#logo {
+    display: none;
+    /*opacity: 0.95;*/
+    /*position: fixed;*/
+    /*bottom: 20px;*/
+    /*background: url(../img/logo.svg) no-repeat center;*/
+    /*background-size: contain;*/
+    /*width: 100%;*/
+    /*height: 50px;*/
+}
+
+/*@media screen and (min-height: 530px) {*/
+    /*#logo {*/
+        /*display: block;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (min-height: 580px) {*/
+    /*#logo {*/
+        /*height: 100px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (min-height: 630px) {*/
+    /*#logo {*/
+        /*height: 150px;*/
+    /*}*/
+/*}*/
+
+/* Landscape layout (with min-width) */
+/*@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {*/
+    /*.app {*/
+        /*background-position:left center;*/
+        /*padding:75px 0px 75px 170px;  /!* padding-top + padding-bottom + text area = image height *!/*/
+        /*margin:-90px 0px 0px -198px;  /!* offset vertical: half of image height *!/*/
+                                      /*/!* offset horizontal: half of image width and text area width *!/*/
+    /*}*/
+/*}*/
+
+/*.event {*/
+    /*border-radius:4px;*/
+    /*-webkit-border-radius:4px;*/
+    /*color:#FFFFFF;*/
+    /*font-size:12px;*/
+    /*margin:0px 30px;*/
+    /*padding:2px 0px;*/
+/*}*/
+
+/*.event.listening {*/
+    /*background-color:#333333;*/
+    /*display:block;*/
+/*}*/
+
+/*.event.received {*/
+    /*background-color:#4B946A;*/
+    /*display:none;*/
+/*}*/
+
+/*@keyframes fade {*/
+    /*from { opacity: 1.0; }*/
+    /*50% { opacity: 0.4; }*/
+    /*to { opacity: 1.0; }*/
+/*}*/
+ /**/
+/*@-webkit-keyframes fade {*/
+    /*from { opacity: 1.0; }*/
+    /*50% { opacity: 0.4; }*/
+    /*to { opacity: 1.0; }*/
+/*}*/
+ /**/
+/*.blink {*/
+    /*animation:fade 3000ms infinite;*/
+    /*-webkit-animation:fade 3000ms infinite;*/
+/*}*/

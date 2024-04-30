@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="/home/baer_m/private/git/mathetrainer/material/icon.png"
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 64 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="128 : 64 : 1"
+       inkscape:persp3d-origin="64 : 42.666667 : 1"
+       id="perspective2999" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3003"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2999"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2995"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2991"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2987"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="9.6364579"
+     inkscape:cy="70.679655"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3069"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-924.36218)">
+    <g
+       id="g3069"
+       transform="matrix(16.552595,0,0,16.552595,25.462405,947.56954)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#0032ff;fill-opacity:1;stroke:none"
+         id="path3057"
+         sodipodi:cx="-56.785713"
+         sodipodi:cy="45.142857"
+         sodipodi:rx="55.357143"
+         sodipodi:ry="55.357143"
+         d="m -1.4285698,45.142857 c 0,30.572906 -24.7842372,55.357143 -55.3571432,55.357143 -30.572906,0 -55.357147,-24.784237 -55.357147,-55.357143 0,-30.572906 24.784241,-55.357144 55.357147,-55.357144 30.572906,0 55.3571432,24.784238 55.3571432,55.357144 z"
+         transform="matrix(0.05456702,0,0,0.05456702,5.4268179,0.00111435)" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.41653967px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="-0.94054037"
+         y="3.1994085"
+         id="text2989"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99163274,0.12909112,-0.12909112,0.99163274,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan2991"
+           x="-0.94054037"
+           y="3.1994085"
+           style="font-size:4.83307886px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:Raleway Bold"
+           dx="0 -0.17260996 -0.15103371"><tspan
+             style="font-size:4.83307886px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#008000;font-family:Raleway;-inkscape-font-specification:Raleway Bold"
+             id="tspan2993">1</tspan><tspan
+             style="font-size:4.83307886px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;font-family:Raleway;-inkscape-font-specification:Raleway Bold"
+             id="tspan2997"
+             dy="0.25891492">+</tspan><tspan
+             style="font-size:4.83307886px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Raleway;-inkscape-font-specification:Raleway Bold"
+             id="tspan2995"
+             dy="-0.25891492">2</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
