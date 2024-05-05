@@ -1,22 +1,21 @@
 {
-    "name": "Kleiner Mathestar",
-    "short_name": "Kleiner Mathestar",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#fff",
-    "orientation": "portrait",
-    "description": "Lerne Rechnen für die 1. und 2. Klasse",
-    "icons": [
-      {
-        "src": "img/logo_128.svg",
-        "sizes": "128x128",
-        "type": "image/svg"
-      },
-      {
-        "src": "img/logo_128.svg",
-        "sizes": "144x144",
-        "type": "image/svg"
-      }
-    ]
-  }
-  
+  "name": "Kleiner Mathestar",
+  "short_name": "Kleiner Mathestar",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "orientation": "portrait",
+  "description": "Lerne Rechnen für die 1. und 2. Klasse",
+  "icons": [
+    {
+      "src": "img/logo_128.svg",
+      "sizes": "128x128",
+      "type": "image/svg"
+    },
+    {
+      "src": "img/logo_128.svg",
+      "sizes": "144x144",
+      "type": "image/svg"
+    }
+  ]
+}
