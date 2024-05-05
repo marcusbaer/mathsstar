@@ -69,6 +69,10 @@ input {
     /*color: black;*/
 /*}*/
 
+input[disabled] {
+    color: black;
+}
+
 input.enabled {
     border-bottom: 0.1rem solid white;
     color: white;
